@@ -30,14 +30,29 @@ A **fault-tolerant data pipeline** that scrapes Apache Jira issues and converts 
 
 ---
 
-### 2) ⌨️ zero_-_one — Typing Speed Trainer  
-**(Python, Tkinter, Game Mechanics)**  
-A minimal, distraction-free **typing practice tool** that tracks **WPM, accuracy**, and improvement history.
+### 2) ⌨️ zero_-_one — Typing Test  
+**(Python, Standard Library, Threading, CLI App)**  
 
-- Randomized prompt sets  
-- Real-time WPM + error stats  
-- Clean compact UI  
-- Focused on consistency over speed spikes  
+A **beginner-friendly typing test** built in Python. It picks a random line from text files (grouped by difficulty), lets you type it, and then shows your **accuracy** and **WPM**.  
+I also used a lightweight **background thread** to auto-end the test when the timer expires (it basically “presses Enter” for you in the backend).
+
+**How it works 🚀**
+- Prompts are stored in `.txt` files organized by difficulty.
+- A random prompt is selected when the test starts.
+- Your input is compared **word-by-word** to compute accuracy.
+- WPM is calculated based on number of words typed in the time window.
+- A background thread counts down and auto-submits your input when time ends.
+
+**Requirements 📦**
+- Python 3.x  
+- Uses only standard libraries → `random`, `threading`, `time`, `sys`
+
+**Why I built it ✨**
+Just for fun and practice — specifically to learn:
+- File handling
+- Random prompt selection
+- Basic threading for timers
+- Calculating real-time accuracy + speed metrics
 
 🔗 **Repo:** https://github.com/IshangKansal/zero_-_one
 
