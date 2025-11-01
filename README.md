@@ -1,16 +1,62 @@
-## Hi there 👋
+# 👋 Hey, I'm Ishang!
 
-<!--
-**IshangKansal/IshangKansal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a developer focused on **Machine Learning, Full-Stack Engineering, and Data Systems**.  
+I enjoy building things that solve real problems — whether that’s **training models**, **analyzing data**, or **designing scalable backend systems**.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧠 Skills & Tech
+
+**Languages:** C++, Python, Java, SQL, JavaScript  
+**Data & ML:** NumPy, Pandas, CNNs, ARIMA/ARMA, Hugging Face, Prophet  
+**Backend / Tools:** Flask, PostgreSQL, Git, Streamlit, NeonDB  
+**Frontend:** React, Next.js, TailwindCSS  
+**Soft Skills:** Clear communication • Problem solving • Adaptable teamwork
+
+---
+
+## 🔥 Featured Projects
+
+### 1) 🐍 Apache Jira Scraper → LLM Training Dataset  
+**(Python, REST API, Data Engineering, NLP)**  
+A **fault-tolerant data pipeline** that scrapes Apache Jira issues and converts them into **high-quality JSONL corpora** for **LLM training**.
+
+- Resumable scraping with retries + rate-limit handling  
+- Generates summaries, classification tags & Q/A tasks  
+- Sharded output ready for training pipelines  
+
+🔗 **Repo:** https://github.com/IshangKansal/jira-scraper  
+📄 Dataset format: JSONL (cleaned + structured)
+
+---
+
+### 2) ⌨️ zero_-_one — Typing Speed Trainer  
+**(Python, Tkinter, Game Mechanics)**  
+A minimal, distraction-free **typing practice tool** that tracks **WPM, accuracy**, and improvement history.
+
+- Randomized prompt sets  
+- Real-time WPM + error stats  
+- Clean compact UI  
+- Focused on consistency over speed spikes  
+
+🔗 **Repo:** https://github.com/IshangKansal/zero_-_one
+
+---
+
+## 📊 Recent Work & Research
+
+### Autism Spectrum Disorder (ASD) Detection using CNNs  
+Designed and evaluated **deep learning pipelines** (VGG16, ResNet50) for early ASD screening using neuroimaging datasets — improving model robustness & diagnostic reliability.
+
+---
+
+## 🌱 Currently Learning
+- Improving dataset quality for **LLM fine-tuning**
+- Efficient inference + optimization strategies
+- Advanced prompt engineering & structured knowledge distillation
+
+---
+
+## 📫 Connect With Me
+Feel free to reach out — I love discussing ML ideas, dataset design, or just improving typing speed 🙂
+
