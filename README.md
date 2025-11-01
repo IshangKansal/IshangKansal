@@ -58,6 +58,30 @@ Just for fun and practice — specifically to learn:
 
 ---
 
+### 3) 📈 Web Traffic Forecasting  
+**(Python, Time-Series Analysis, ARMA/ARIMA, Prophet, LSTM)**  
+
+A time-series forecasting project focused on modeling web traffic to improve traffic trend prediction and capacity planning.
+
+**What it does**
+- Analyzes historical traffic data for **trend**, **seasonality**, and **noise decomposition**
+- Trains and compares multiple forecasting models:
+  - **ARMA**, **ARIMA**, **Auto-ARIMA**
+  - **Facebook Prophet**
+  - **LSTM neural network**
+- Evaluates models using RMSE, achieving the **best score of 1.73** with ARMA  
+- Improved overall predictive accuracy by **~15%**
+
+**Key Learnings**
+- Time-series stationarity & differencing
+- Model selection based on error metrics
+- Handling seasonal + non-stationary signals
+- Practical deployment trade-offs in forecasting
+
+🔗 **Repo:** https://github.com/IshangKansal/web-traffic-forecast
+
+---
+
 ## 📊 Recent Work & Research
 
 ### Autism Spectrum Disorder (ASD) Detection using CNNs  
